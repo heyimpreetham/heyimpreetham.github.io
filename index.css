@@ -49,7 +49,8 @@
   font-family:'Inder';
   text-align: right;
   top:30%;
-  left:50%;
+  left:65%;
+  font-size:60px;
 
 }
 
@@ -62,8 +63,10 @@
   padding-right: 20px;
   font-family:'Inder';
   text-align: right;
-  left:50%;
+  left:65%;
   top:35%;
+ font-size:50px;
+
 }
 
 
@@ -86,6 +89,32 @@
      width:100%:
      text-align:center;
   }
+}
+
+.grid-container {
+  display: grid;
+  grid-row-gap: 25px;
+  grid-column-gap: 25px;
+  grid-template-columns: auto auto;
+  background-color: black;
+  padding: 20px;
+}
+
+.grid-item {
+  background-color:black;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  border-radius:50px;
+  height:50px;
+}
+.grid-item a{
+  font-size: 25px;
+  font-weight: Extra-bold;
+  color: white;
+  font-family:'Inder';
+  text-decoration:none;
 }
 
 .footer {
@@ -177,4 +206,52 @@ input[type=submit]:hover {
 
 input[type=text].review{
   height:100px;
+}
+
+@media only screen and (max-width : 480px) {
+   /* Smartphone view */
+   .text-block a.nounderline {
+  
+  font-size:25px;
+  top:10%;
+
+}
+
+.text-block b.nounderline {
+  
+ font-size:15px;
+ top:50%;
+}
+.grid-item a{
+  font-size: 15px;
+  font-weight: Extra-bold;
+  color: white;
+  font-family:'Inder';
+  text-decoration:none;
+}
+
+
+}
+@media only screen and (max-width : 650px) and (min-width : 481px) {
+   /* Tablet view */
+  
+}
+@media only screen and (max-width : 1050px) and (min-width : 651px) {
+   /* Small desktop / ipad view\ */
+   .text-block a.nounderline {
+  
+  font-size:55px;
+  top:10%;
+
+}
+
+.text-block b.nounderline {
+  
+ font-size:35px;
+ top:55%;
+}
+}
+@media only screen and (max-width : 1290px) and (min-width : 1051px) {
+   /* Medium desktop */
+   
 }
