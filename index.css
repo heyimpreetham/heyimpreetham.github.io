@@ -205,7 +205,7 @@ input[type=submit]:hover {
 }
 
 input[type=text].review{
-  height:100px;
+  height:200px;
 }
 
 @media only screen and (max-width : 480px) {
