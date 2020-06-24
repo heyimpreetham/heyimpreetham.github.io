@@ -184,7 +184,7 @@ form {
 }
 
 /* Style the input elements and the submit button */
-input[type=text], input[type=submit] {
+input[type=text], input[type=submit],textarea {
   width: 100%;
   padding: 12px;
   margin: 8px 0;
