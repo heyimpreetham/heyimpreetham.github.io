@@ -27,16 +27,17 @@
     <input type="text" placeholder="Email" name="email" required>
     <input type="text" placeholder="Review" name="review" required>
   </div>
-<script language=”JavaScript”>
-var frmvalidator = new Validator(“contactform”); 
-    frmvalidator.addValidation(“name”,”req”,”Please provide your name”); 
-    frmvalidator.addValidation(“email”,”req”,”Please provide your email”); 
-    frmvalidator.addValidation(“email”,”email”, “Please enter a valid email address”); </script>
+
 <script>
   <div class="container">
     <input type="submit" value="Submit">
   </div>
 </form>
+    <script language=”JavaScript”>
+var frmvalidator = new Validator(“contactform”); 
+    frmvalidator.addValidation(“name”,”req”,”Please provide your name”); 
+    frmvalidator.addValidation(“email”,”req”,”Please provide your email”); 
+    frmvalidator.addValidation(“email”,”email”, “Please enter a valid email address”); </script>
 
 
     </body>
