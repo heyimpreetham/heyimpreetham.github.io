@@ -17,18 +17,24 @@
 <div class="container">
     <img src="review.jpg" alt="review" style="width:100%">
   </div>
-    <form action="action_page.php">
+    <form  method=”post” name=”reviewform” action="action_page.php">
   <div class="container">
     <h1> Write your views down here</h1>
   </div>
 
   <div class="container" style="background-color:black">
     <input type="text" placeholder="Name" name="name" required>
+    <input type="text" placeholder="Email" name="email" required>
     <input type="text" placeholder="Review" name="review" required>
   </div>
-
+<script language=”JavaScript”>
+var frmvalidator = new Validator(“contactform”); 
+    frmvalidator.addValidation(“name”,”req”,”Please provide your name”); 
+    frmvalidator.addValidation(“email”,”req”,”Please provide your email”); 
+    frmvalidator.addValidation(“email”,”email”, “Please enter a valid email address”); </script>
+<script>
   <div class="container">
-    <input type="submit" value="Submit">
+    <input type="submit" value="Submit" <a href="mailto:bp16042000gmail.com>
   </div>
 </form>
 
