@@ -1,4 +1,4 @@
-img {  
+.container1 img {  
                 -webkit-filter: blur(9px);  
                 filter: blur(9px);  
             }  
