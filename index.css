@@ -5,6 +5,10 @@ body{
                 -webkit-filter: blur(9px);  
                 filter: blur(9px);  
             }  
+  .container1 img {  
+                -webkit-filter: blur(9px);  
+                filter: blur(4px);  
+            } 
 .header {
   overflow: hidden;
   background-color: black;
