@@ -7,7 +7,7 @@ body{
             }  
   .container1 img {  
                 -webkit-filter: blur(9px);  
-                filter: blur(4px);  
+                filter: blur(1px);  
             } 
 .header {
   overflow: hidden;
