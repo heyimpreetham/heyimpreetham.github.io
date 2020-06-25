@@ -1,6 +1,6 @@
 img {  
-                -webkit-filter: blur(4px);  
-                filter: blur(4px);  
+                -webkit-filter: blur(9px);  
+                filter: blur(9px);  
             }  
 .header {
   overflow: hidden;
