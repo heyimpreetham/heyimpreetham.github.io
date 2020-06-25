@@ -1,7 +1,7 @@
 body{
   background:Black;
 }
-  .container1 img {  
+  .container img {  
                 -webkit-filter: blur(9px);  
                 filter: blur(9px);  
             }  
