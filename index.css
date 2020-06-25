@@ -6,8 +6,7 @@
   overflow: hidden;
   background-color: black;
   padding: 20px 10px;
-  -webkit-filter: blur(9px);  
-    
+     
 }
 
 .header a {
@@ -104,8 +103,6 @@
   text-align: center; 
   background:black;
   bottom:0;
-  -webkit-filter: blur(9px);  
-                filter: blur(9px);  
   }
 
 .footer a.top{
