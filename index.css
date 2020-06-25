@@ -6,7 +6,7 @@ body{
                 filter: blur(9px);  
             }  
   .container1 img {  
-                -webkit-filter: blur(9px);  
+                -webkit-filter: blur(2px);  
                 filter: blur(1px);  
             } 
 .header {
