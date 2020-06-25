@@ -1,4 +1,7 @@
-
+img {  
+                -webkit-filter: blur(4px);  
+                filter: blur(4px);  
+            }  
 .header {
   overflow: hidden;
   background-color: black;
