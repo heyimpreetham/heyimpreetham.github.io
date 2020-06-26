@@ -1,5 +1,5 @@
 body{
-  background-img:url('new.jpg');
+  background-image:url('new.jpg');
 }
   .container img {  
                 -webkit-filter: blur(9px);  
