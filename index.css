@@ -64,7 +64,7 @@ body{
 
 .header a:hover {
   background-color: black;
-  color: white;
+  color: black;
 }
 
 .header a.active {
@@ -108,7 +108,7 @@ body{
 
 .header-right a {
   float: right;
-  color:white;
+  color:#C3073F;
 }
     
 /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */ 
@@ -132,17 +132,17 @@ body{
  #ct{
 height:150px; 
 width:90%;
-border:1px solid #f1c40f;
+border:1px solid #C3073F ;
 margin: 100px auto;
 text-align:center;
 position:relative;
-color:#fff;
+color:#C3073F;
 padding:15px;
 }
 
 span{
-  background:#1D1F20;
-  color:#f1c40f;
+  background:black;
+  color:#C3073F;
   padding:0 10px;
   font-size:20px;
   position:relative; 
@@ -151,37 +151,37 @@ span{
 .corner{height:30px;
   width:30px;
   border-radius:50%;
-  border:1px solid #fff;
+  border:1px solid ;
   transform:rotate(-45deg);  
   position:absolute;
-  background:#1D1F20;
+  background:black;
 }
 
 #left_top{
   top:-16px;
   left:-16px;
-  border-color:transparent transparent #f1c40f transparent;
+  border-color:transparent transparent #C3073F transparent;
 }
 #right_top{
   top:-16px;
   right:-16px;
-  border-color:transparent transparent transparent #f1c40f;
+  border-color:transparent transparent transparent #C3073F;
 }
 #left_bottom{
   bottom:-16px;
   left:-16px;
-  border-color:transparent #f1c40f transparent transparent ;
+  border-color:transparent #C3073F transparent transparent ;
 }
 #right_bottom{
   bottom:-16px;
   right:-16px;
-  border-color:#f1c40f transparent transparent transparent;
+  border-color:#C3073F transparent transparent transparent;
 }
 p{padding-top:13px;font-size:18px}
 .footer {
   padding: 20px; 
   text-align: center; 
-  background:#41AAC4;
+  background:black;
   bottom:0;
   }
 
@@ -194,7 +194,7 @@ p{padding-top:13px;font-size:18px}
 
 .footer a.top{
   font-size:20px;
-  color:white;
+  color:#C3073F;
   text-decoration: none;
 }
 
