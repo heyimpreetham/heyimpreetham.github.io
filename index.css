@@ -1,5 +1,5 @@
 body{
-  background:black;
+  background:#41AAC4;
 }
   .container img {  
                 -webkit-filter: blur(9px);  
@@ -12,7 +12,7 @@ body{
             } 
 .header {
   overflow: hidden;
-  background-color: black;
+  background-color:#41AAC4 ;
   padding: 20px 10px;
      
 }
@@ -63,12 +63,12 @@ body{
 
 
 .header a:hover {
-  background-color: black;
-  color: black;
+  background-color: #41AAC4;
+  color: #41AAC4;
 }
 
 .header a.active {
-  background-color:  black;
+  background-color:  #41AAC4;
   color: white;
 }
 .container {
@@ -181,14 +181,14 @@ p{padding-top:13px;font-size:18px}
 .footer {
   padding: 20px; 
   text-align: center; 
-  background:black;
+  background:#41AAC4;
   bottom:0;
   }
 
 .footer {
   padding: 20px; 
   text-align: center; 
-  background:black;
+  background:#41AAC4;
   bottom:0;
   }
 
@@ -215,27 +215,27 @@ p{padding-top:13px;font-size:18px}
 
 
 .fa-twitter {
-  background: black;
+  background: #41AAC4;
   color: white;
 }
 
 .fa-instagram {
-  background: black;
+  background: #41AAC4;
   color: white;
 }
 
 .fa-linkedin {
-  background: black;
+  background: #41AAC4;
   color: white;
 }
 
 .fa-reddit {
-  background:black;
+  background:#41AAC4;
   color: white;
 }
 
 .fa-github {
-  background:black;
+  background:#41AAC4;
   color: white;
 }
 
@@ -245,7 +245,7 @@ p{padding-top:13px;font-size:18px}
 /* Add some padding and a grey background color to containers */
 .container {
   padding: 20px;
-  background-color: black;
+  background-color: #41AAC4;
   color:white;
 }
 
