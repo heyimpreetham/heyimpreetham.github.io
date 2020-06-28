@@ -1,5 +1,5 @@
 body{
-  background:#41AAC4;
+  background:black;
 }
   .container img {  
                 -webkit-filter: blur(9px);  
@@ -12,14 +12,14 @@ body{
             } 
 .header {
   overflow: hidden;
-  background-color:#41AAC4 ;
+  background-color:black ;
   padding: 20px 10px;
      
 }
 
 .header a {
   float: left;
-  color: white;
+  color: #C3073F;
   text-align: center;
   padding: 12px;
   text-decoration: none;
@@ -34,7 +34,7 @@ body{
             animation-duration: 1s; 
             -webkit-animation-fill-mode: both; 
             animation-fill-mode: both; 
-            color:white;
+            color:#C3073F;
          }
          
          @-webkit-keyframes bounce { 
@@ -57,19 +57,19 @@ body{
 .header a.logo {
   font-size: 40px;
   font-weight: Extra-bold;
-  color: white;
+  color: #C3073F;
   font-family:'Inder';
 }
 
 
 .header a:hover {
-  background-color: #41AAC4;
-  color: #41AAC4;
+  background-color: black;
+  color: white;
 }
 
 .header a.active {
-  background-color:  #41AAC4;
-  color: white;
+  background-color:  black;
+  color: #C3073F;
 }
 .container {
   position: relative;
@@ -94,7 +94,7 @@ body{
   position: absolute;
   text-decoration: none;
   background-color: transparent;
-  color: white;
+  color: #C3073F;
   padding-left: 20px;
   padding-right: 20px;
   font-family:'Inder';
@@ -188,7 +188,7 @@ p{padding-top:13px;font-size:18px}
 .footer {
   padding: 20px; 
   text-align: center; 
-  background:#41AAC4;
+  background:black;
   bottom:0;
   }
 
@@ -215,28 +215,28 @@ p{padding-top:13px;font-size:18px}
 
 
 .fa-twitter {
-  background: #41AAC4;
-  color: white;
+  background: black;
+  color: #C3073F;
 }
 
 .fa-instagram {
-  background: #41AAC4;
-  color: white;
+  background: black;
+  color: #C3073F;
 }
 
 .fa-linkedin {
-  background: #41AAC4;
-  color: white;
+  background: black;
+  color: #C3073F;
 }
 
 .fa-reddit {
-  background:#41AAC4;
-  color: white;
+  background:black;
+  color: #C3073F;
 }
 
 .fa-github {
-  background:#41AAC4;
-  color: white;
+  background:black;
+  color: #C3073F;
 }
 
 
@@ -245,8 +245,8 @@ p{padding-top:13px;font-size:18px}
 /* Add some padding and a grey background color to containers */
 .container {
   padding: 20px;
-  background-color: #41AAC4;
-  color:white;
+  background-color: black;
+  color:#C3073F;
 }
 
 
