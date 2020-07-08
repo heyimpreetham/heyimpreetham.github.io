@@ -86,7 +86,10 @@ article {
   color:#C3073F;
 }
 
-
+section {
+  display: -webkit-flex;
+  display: flex;
+}
 
 
 .header-right a {
