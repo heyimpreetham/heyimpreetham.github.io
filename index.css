@@ -270,6 +270,7 @@ p{padding-top:13px;font-size:18px}
   position: fixed;
   z-index: 1;
   padding-top: 20px;
+  overflow:hidden;
 }
 
 .left {
@@ -302,6 +303,7 @@ p{padding-top:13px;font-size:18px}
   position: relative;
   max-width: 1200px;
   margin: 0 auto;
+  overflow:hidden;
 }
 
 /* The actual timeline (the vertical ruler) */
