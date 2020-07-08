@@ -308,7 +308,7 @@ p{padding-top:13px;font-size:18px}
 /* The actual timeline (the vertical ruler) */
 .timeline::after {
   content: '';
-  position: absolute;
+  position: fixed;
   width: 6px;
   background-color: black;
   top: 0;
