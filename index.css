@@ -304,6 +304,7 @@ p{padding-top:13px;font-size:18px}
   max-width: 1200px;
   margin: 0 auto;
   overflow:hidden;
+  display:block;
 }
 
 /* The actual timeline (the vertical ruler) */
