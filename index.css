@@ -101,12 +101,7 @@ body{
      text-align:center;
   }
 }
-instead of next to each other */
-@media (max-width: 600px) {
-  section {
-    -webkit-flex-direction: column;
-    flex-direction: column;
-  }
+
 
  #ct{
 height:150px; 
