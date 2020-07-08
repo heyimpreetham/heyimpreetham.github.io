@@ -300,10 +300,12 @@ p{padding-top:13px;font-size:18px}
 }
 
 .timeline {
+  top:100px;
   position: relative;
   max-width: 1200px;
   overflow:hidden;
   display:block;
+  margin: 0 auto;
 }
 
 /* The actual timeline (the vertical ruler) */
