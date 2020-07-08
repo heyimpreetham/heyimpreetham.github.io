@@ -311,7 +311,7 @@ p{padding-top:13px;font-size:18px}
 /* The actual timeline (the vertical ruler) */
 .timeline::after {
   content: '';
-  position: absolute;
+  position: relative;
   width: 6px;
   background-color: black;
   top: 0;
@@ -331,7 +331,7 @@ p{padding-top:13px;font-size:18px}
 /* The circles on the timeline */
 .timeline .container::after {
   content: '';
-  position: absolute;
+  position: relative;
   width: 25px;
   height: 25px;
   right: -17px;
@@ -339,7 +339,7 @@ p{padding-top:13px;font-size:18px}
   border: 4px solid black;
   top: 15px;
   border-radius: 50%;
-  z-index: 1;
+
 }
 
 /* Place the container to the left */
@@ -356,10 +356,10 @@ p{padding-top:13px;font-size:18px}
 .timeline .left::before {
   content: " ";
   height: 0;
-  position: absolute;
+  position: relative;
   top: 22px;
   width: 0;
-  z-index: 1;
+ 
   right: 30px;
   border: medium solid white;
   border-width: 10px 0 10px 10px;
@@ -370,10 +370,10 @@ p{padding-top:13px;font-size:18px}
 .timeline .right::before {
   content: " ";
   height: 0;
-  position: absolute;
+  position: relative;
   top: 22px;
   width: 0;
-  z-index: 1;
+
   left: 30px;
   border: black;
   border-width: 10px 10px 10px 0;
