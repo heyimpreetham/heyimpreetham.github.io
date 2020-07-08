@@ -1,5 +1,5 @@
 body{
-  background:black;
+  background:#FDFFF5;
 }
   .container img {  
                 -webkit-filter: blur(9px);  
@@ -14,7 +14,7 @@ body{
             } 
 .header {
   overflow: hidden;
-  background-color:black ;
+  background-color:#FDFFF5;
   padding: 20px 10px;
      
 }
@@ -70,7 +70,7 @@ body{
 }
 
 .header a.active {
-  background-color:  black;
+  background-color:  #FDFFF5;
   color: #C3073F;
 }
 .container {
@@ -115,7 +115,7 @@ padding:15px;
 }
 
 span{
-  background:black;
+  background:#FDFFF5;
   color:#C3073F;
   padding:0 10px;
   font-size:20px;
@@ -128,7 +128,7 @@ span{
   border:1px solid ;
   transform:rotate(-45deg);  
   position:absolute;
-  background:black;
+  background:#FDFFF5;
 }
 
 #left_top{
@@ -152,19 +152,14 @@ span{
   border-color:#C3073F transparent transparent transparent;
 }
 p{padding-top:13px;font-size:18px}
-.footer {
-  padding: 20px; 
-  text-align: center; 
-  background:black;
-  bottom:0;
-  }
 
 .footer {
   padding: 20px; 
   text-align: center; 
-  background:black;
+  background:#FDFFF5;
   bottom:0;
   }
+
 
 .footer a.top{
   font-size:20px;
