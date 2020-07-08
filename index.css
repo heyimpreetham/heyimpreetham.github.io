@@ -267,7 +267,7 @@ p{padding-top:13px;font-size:18px}
 .split {
   height: 30%;
   width: 50%;
-  position: fixed;
+  position: relative;
   padding-top: 20px;
   overflow:hidden;
   display:block;
