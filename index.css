@@ -65,7 +65,7 @@ body{
 
 
 .header a:hover {
-  background-color: black;
+  background-color: #FDFFF5;
   color: black;
 }
 
@@ -184,27 +184,27 @@ p{padding-top:13px;font-size:18px}
 
 
 .fa-twitter {
-  background: black;
+  background: #FDFFF5;
   color: #C3073F;
 }
 
 .fa-instagram {
-  background: black;
+  background: #FDFFF5;
   color: #C3073F;
 }
 
 .fa-linkedin {
-  background: black;
+  background: #FDFFF5;
   color: #C3073F;
 }
 
 .fa-reddit {
-  background:black;
+  background:#FDFFF5;
   color: #C3073F;
 }
 
 .fa-github {
-  background:black;
+  background:#FDFFF5;
   color: #C3073F;
 }
 
@@ -214,7 +214,7 @@ p{padding-top:13px;font-size:18px}
 /* Add some padding and a grey background color to containers */
 .container {
   padding: 20px;
-  background-color: black;
+  background-color: #FDFFF5;
   color:#C3073F;
 }
 
