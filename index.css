@@ -77,35 +77,15 @@ body{
   position: relative;
 }
 
-.text-block a.nounderline {
-  position: absolute;
-  text-decoration: none;
-  background-color: transparent;
-  color: white;
-  padding-left: 20px;
-  padding-right: 20px;
-  font-family:'Inder';
-  text-align: right;
-  top:30%;
-  left:65%;
-  font-size:60px;
-
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #f1f1f1;
+  padding: 10px;
 }
 
-.text-block b.nounderline {
-  position: absolute;
-  text-decoration: none;
-  background-color: transparent;
-  color: #C3073F;
-  padding-left: 20px;
-  padding-right: 20px;
-  font-family:'Inder';
-  text-align: right;
-  left:65%;
-  top:35%;
- font-size:50px;
 
-}
 
 
 .header-right a {
@@ -130,6 +110,12 @@ body{
      text-align:center;
   }
 }
+instead of next to each other */
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
 
  #ct{
 height:150px; 
