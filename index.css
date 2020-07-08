@@ -270,6 +270,7 @@ p{padding-top:13px;font-size:18px}
   position: fixed;
   padding-top: 20px;
   overflow:hidden;
+  display:block;
 }
 
 .left {
