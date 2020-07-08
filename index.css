@@ -302,7 +302,6 @@ p{padding-top:13px;font-size:18px}
 .timeline {
   position: relative;
   max-width: 1200px;
-  margin: 0 auto;
   overflow:hidden;
   display:block;
 }
