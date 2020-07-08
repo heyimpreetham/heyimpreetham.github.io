@@ -77,19 +77,6 @@ body{
   position: relative;
 }
 
-article {
-  -webkit-flex: 3;
-  -ms-flex: 3;
-  flex: 3;
-  background-color: black;
-  padding: 10px;
-  color:#C3073F;
-}
-
-section1 {
-  display: -webkit-flex;
-  display: flex;
-}
 
 
 .header-right a {
