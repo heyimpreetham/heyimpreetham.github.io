@@ -277,6 +277,16 @@ p{padding-top:13px;font-size:18px}
   color: #C3073F;
   font-size: 18px;
 }
-.card img{
-  border-radius:50%;
+
+.timeline {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.timeline .title {
+  color: grey;
+  font-size: 18px;
 }
