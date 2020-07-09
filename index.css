@@ -224,54 +224,20 @@ p{padding-top:13px;font-size:18px}
 
 @media only screen and (max-width : 480px) {
    /* Smartphone view */
-   .cardblog {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  width: 100%;
-  margin: auto;
-  text-align: center;
-  font-family: 'Inder';
-  color:black;
-  background-color: #FDFFF5;
-}
-
-
+  
 
 }
 @media only screen and (max-width : 650px) and (min-width : 481px) {
    /* Tablet view */
-  .cardblog {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  width: 90%;
-  margin: auto;
-  text-align: center;
-  font-family: 'Inder';
-  color:black;
-  background-color: #FDFFF5;
-}
+ 
 }
 @media only screen and (max-width : 1050px) and (min-width : 651px) {
    /* Small desktop / ipad view\ */
-   .cardblog {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  width: 50%;
-  margin: auto;
-  text-align: center;
-  font-family: 'Inder';
-  color:black;
-  background-color: #FDFFF5;
-}
+   
 }
 @media only screen and (max-width : 1290px) and (min-width : 1051px) {
    /* Medium desktop */
-   .cardblog {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  width: 50%;
-  margin: auto;
-  text-align: center;
-  font-family: 'Inder';
-  color:black;
-  background-color: #FDFFF5;
-}
+   
 }
 
 .card {
@@ -306,9 +272,9 @@ p{padding-top:13px;font-size:18px}
 
 .cardblog {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  width: 50%;
+  width: 100%;
   margin: auto;
-  text-align: center;
+  text-align: justify;
   font-family: 'Inder';
   color:black;
   background-color: #FDFFF5;
