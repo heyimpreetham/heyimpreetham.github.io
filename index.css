@@ -277,4 +277,6 @@ p{padding-top:13px;font-size:18px}
   color: #C3073F;
   font-size: 18px;
 }
-
+.card img{
+  border-radius:50%;
+}
