@@ -297,6 +297,8 @@ p{padding-top:13px;font-size:18px}
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   width: 40%;
   margin: auto;
-  text-align: justify;
-  font-family: arial;
+  text-align: center;
+  font-family: 'Inder';
+  color:black;
+  background-color: #FDFFF5;
 }
