@@ -273,20 +273,20 @@ p{padding-top:13px;font-size:18px}
   display:block;
 }
 
-.left {
+.split .left {
   left: 0;
   background-color: #FDFFF5;
   color:#C3073F;
 }
 
-.right {
+.split .right {
   right: 0;
   background-color:#C3073F ;
   font-size:8px;
   color:#FDFFF5;
 }
 
-.centered {
+.split .centered {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -294,7 +294,7 @@ p{padding-top:13px;font-size:18px}
   text-align: center;
 }
 
-.centered img {
+.split .centered img {
   width: 150px;
   border-radius: 50%;
 }
