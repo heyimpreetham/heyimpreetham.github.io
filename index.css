@@ -265,16 +265,16 @@ p{padding-top:13px;font-size:18px}
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 50%;
+  max-width: 100%;
   margin: auto;
   text-align: center;
-  font-family: 'Bungee';
-  color:#C3073F;
+  font-family: 'Inder';
+  color:black;
   background-color: #FDFFF5;
 }
 
 .card .title {
-  color: black;
+  color: #C3073F;
   font-size: 18px;
 }
 
