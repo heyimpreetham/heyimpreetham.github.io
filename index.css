@@ -100,6 +100,15 @@ body{
      width:100%:
      text-align:center;
   }
+  .cardblog {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  font-family: 'Inder';
+  color:black;
+  background-color: #FDFFF5;
+}
 }
 
 
@@ -295,7 +304,7 @@ p{padding-top:13px;font-size:18px}
 
 .cardblog {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  width: 40%;
+  width: 50%;
   margin: auto;
   text-align: center;
   font-family: 'Inder';
