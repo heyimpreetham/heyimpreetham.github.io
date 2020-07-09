@@ -283,10 +283,12 @@ p{padding-top:13px;font-size:18px}
   width: 100%;
   margin: auto;
   text-align: center;
-  font-family: arial;
+  font-family: 'Inder';
+  color:black;
+  background-color: #FDFFF5;
 }
 
 .timeline .title {
-  color: grey;
+  color: #C3073F;
   font-size: 18px;
 }
