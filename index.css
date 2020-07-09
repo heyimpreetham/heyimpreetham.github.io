@@ -100,15 +100,7 @@ body{
      width:100%:
      text-align:center;
   }
-  .cardblog {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  width: 100%;
-  margin: auto;
-  text-align: center;
-  font-family: 'Inder';
-  color:black;
-  background-color: #FDFFF5;
-}
+ 
 }
 
 
@@ -232,17 +224,14 @@ p{padding-top:13px;font-size:18px}
 
 @media only screen and (max-width : 480px) {
    /* Smartphone view */
-   .text-block a.nounderline {
-  
-  font-size:25px;
-  top:10%;
-
-}
-
-.text-block b.nounderline {
-  
- font-size:15px;
- top:50%;
+   .cardblog {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  font-family: 'Inder';
+  color:black;
+  background-color: #FDFFF5;
 }
 
 
@@ -250,26 +239,39 @@ p{padding-top:13px;font-size:18px}
 }
 @media only screen and (max-width : 650px) and (min-width : 481px) {
    /* Tablet view */
-  
+  .cardblog {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  font-family: 'Inder';
+  color:black;
+  background-color: #FDFFF5;
+}
 }
 @media only screen and (max-width : 1050px) and (min-width : 651px) {
    /* Small desktop / ipad view\ */
-   .text-block a.nounderline {
-  
-  font-size:55px;
-  top:10%;
-
-}
-
-.text-block b.nounderline {
-  
- font-size:35px;
- top:55%;
+   .cardblog {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  font-family: 'Inder';
+  color:black;
+  background-color: #FDFFF5;
 }
 }
 @media only screen and (max-width : 1290px) and (min-width : 1051px) {
    /* Medium desktop */
-   
+   .cardblog {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  font-family: 'Inder';
+  color:black;
+  background-color: #FDFFF5;
+}
 }
 
 .card {
