@@ -292,3 +292,11 @@ p{padding-top:13px;font-size:18px}
   color: #C3073F;
   font-size: 18px;
 }
+
+.cardblog {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 40%;
+  margin: auto;
+  text-align: justify;
+  font-family: arial;
+}
