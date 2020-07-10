@@ -351,3 +351,70 @@ p{padding-top:13px;font-size:18px}
   color:black;
   background-color: #FDFFF5;
 }
+
+/*INterest*/
+
+.interests {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 100%;
+  margin: auto;
+  color:black;
+  background-color: #FDFFF5;
+  font-family: 'Inder';
+  text-align: center;
+   display: inline-block;
+   font-size: 20px;
+}
+.interests .title {
+  border: none;
+  outline: 0;
+   margin: auto;
+  display: inline-block;
+  color: #C3073F;
+  background-color: #FDFFF5;
+  text-align: center;
+  width: 100%;
+  font-size: 28px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float four columns side by side */
+.interests .column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.interests .row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.interests .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+.interests .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.interests .card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  color:black;
+  background-color: #FDFFF5;
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+  margin-bottom:30px;
+}
+
