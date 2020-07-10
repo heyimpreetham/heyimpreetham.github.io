@@ -352,7 +352,7 @@ p{padding-top:13px;font-size:18px}
   background-color: #FDFFF5;
 }
 
-/*INterest*/
+/*INterest page*/
 
 .interests {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -414,7 +414,52 @@ body {
   background-color: #FDFFF5;
   padding: 16px;
   text-align: center;
-  background-color: #f1f1f1;
+
   margin-bottom:30px;
 }
 
+
+/*ach page*/
+.achcard{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width:100%;
+  margin: auto;
+  text-align:left;
+  font-family: 'Inder';
+  color: #C3073F;
+  background-color: #FDFFF5;
+  display:inline-block;
+}
+
+.achcard .title {
+  color: black;
+  font-size: 28px;
+}
+.achcard .collapsible {
+  background-color: #FDFFF5;
+  color: black;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.achcard .active, .collapsible:hover {
+  background-color: black;
+}
+
+.achcard .content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color:#FDFFF5 ;
+}
+.achcard .avatar {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
