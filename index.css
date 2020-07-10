@@ -86,6 +86,29 @@ body{
   float: right;
   color:#C3073F;
 }
+
+.contact {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 100%;
+  margin: auto;
+  font-family: 'Inder';
+  text-align: center;
+   display: inline-block;
+  background-color:  #FDFFF5;
+  color: black;
+   font-size: 20px;
+}
+.contact .title {
+  border: none;
+  outline: 0;
+  background-color:  #FDFFF5;
+  color: #C3073F;
+   margin: auto;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  font-size: 28px;
+}
     
 /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */ 
 @media screen and (max-width: 800px) {
