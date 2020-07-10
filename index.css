@@ -1,6 +1,9 @@
 body{
   background:#FDFFF5;
 }
+* {
+  box-sizing: border-box;
+}
   .container img {  
                 -webkit-filter: blur(9px);  
                 filter: blur(9px);  
@@ -164,7 +167,7 @@ p{padding-top:13px;font-size:18px}
   background-color: #FDFFF5;
 }
 /* Float two columns side by side */
-.inspcolumn {
+.insp .column {
   float: left;
   width: 50%;
   padding: 0 10px;
@@ -173,7 +176,7 @@ p{padding-top:13px;font-size:18px}
 
 .insprow {margin: 0 -5px;}
 
-.insprow:after {
+.insp .row:after {
   content: "";
   display: table;
   clear: both;
@@ -181,7 +184,7 @@ p{padding-top:13px;font-size:18px}
 
 /* Responsive columns */
 @media screen and (max-width: 600px) {
-  .inspcolumn {
+  .insp .column {
     width: 100%;
     display: block;
     margin-bottom: 20px;
@@ -189,10 +192,11 @@ p{padding-top:13px;font-size:18px}
 }
 
 
-.inspcard {
+.insp .card {
    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   width: 100%;
   margin: auto;
+  padding: 16px;
   text-align: center;
   font-family: 'Inder';
   color:black;
