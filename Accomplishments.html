@@ -21,9 +21,23 @@
     </section>
 
 <section>
-<div class="container">
-      <img src="new.jpg" alt="me1" style="width:100%">  
-     </div>
+<div class="achcard">
+<h1 class="title">Projects</h1>
+<button type="button" class="collapsible"><img src="img_avatar.png" alt="Avatar" class="avatar"><h1>ELUCIDA</h1><h2>An Emergency Android App</h2></button>
+<div class="content">
+  <p>A Medical Emergency app which connects the person who is in emergency to the nearest medical treaatment centre. It also provides access to unauthorized person in the victim's phone(if locked) to send emergency messages to the victim's Contacts. </p>
+</div>
+<button type="button" class="collapsible"><img src="img_avatar.png" alt="Avatar" class="avatar"><h1>AXEL</h1><h2>A WebApp for Startup Networks</h2></button>
+<div class="content">
+  <p>A Web application which acts as a social network for startup aspirants to connect between mentors and also acts as a platform to explore more startup ideas,current startup scenarios and a much more facilities.</p>
+</div>
+<button type="button" class="collapsible"><img src="img_avatar.png" alt="Avatar" class="avatar"><h1>RUSTOM</h1><h2>A WebApp for Car Dealership</h2></button>
+<div class="content">
+  <p>A Web application for a car dealership company which allow users to buy, sell and rent cars.</p>
+</div>
+</div>
+
+
 </section>
 <section>
      <div class="footer">
@@ -34,6 +48,22 @@
       <br><a class="top" href="index.html">Preetham</a></br>
      </div>
 </section>
+    <script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
 <script>
 
 window.onbeforeunload = () =>
