@@ -448,7 +448,7 @@ body {
 }
 
 .achcard .active, .collapsible:hover {
-  background-color: black;
+  background-color:#FDFFF5 ;
 }
 
 .achcard .content {
