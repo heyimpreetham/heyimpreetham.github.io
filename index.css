@@ -422,13 +422,13 @@ body {
 /*ach page*/
 .achcard{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  width:100%;
+  width:50%;
   margin: auto;
   text-align:left;
   font-family: 'Inder';
   color: #C3073F;
   background-color: #FDFFF5;
-  display:inline-block;
+  float: left;
 }
 
 .achcard .title {
