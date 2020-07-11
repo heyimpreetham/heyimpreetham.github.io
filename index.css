@@ -432,12 +432,12 @@ body {
 }
 
 .achcard .title {
-  color: black;
+  color: #C3073F;
   font-size: 28px;
 }
 .achcard .collapsible {
   background-color: #FDFFF5;
-  color: #C3073F;
+  color:black;
   cursor: pointer;
   padding: 18px;
   width: 100%;
