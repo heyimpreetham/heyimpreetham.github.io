@@ -124,9 +124,7 @@ body{
   }
   .footer{
      width:100%;
-     vertical-align: middle;
      text-align:center;
-     position:absolute;
   }
  
 }
@@ -233,7 +231,6 @@ p{padding-top:13px;font-size:18px}
   text-align: center; 
   background:#FDFFF5;
   bottom:0;
-  position: absolute;
   }
 
 
@@ -426,6 +423,7 @@ body {
 .achcard{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   width:50%;
+  height:50%;
   margin: auto;
   text-align:left;
   font-family: 'Inder';
