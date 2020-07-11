@@ -125,6 +125,7 @@ body{
   .footer{
      width:100%;
      text-align:center;
+     position:fixed;
   }
  
 }
@@ -231,6 +232,7 @@ p{padding-top:13px;font-size:18px}
   text-align: center; 
   background:#FDFFF5;
   bottom:0;
+  position: fixed;
   }
 
 
