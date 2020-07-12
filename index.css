@@ -476,6 +476,7 @@ body {
 .vidcard .title {
   color: black;
   font-size: 28px;
+  background-color: #C3073F;
 }
 
 .vidcard .vid{
