@@ -486,3 +486,43 @@ body {
 .vidcard .vid{
 width:100%;
 height:450px;
+}
+
+.newscard {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width:100%; 
+  margin: auto;
+  text-align: center;
+  font-family: 'Inder';
+  background-color:#FDFFF5 ;
+}
+
+.newscard .title {
+  color:#FDFFF5;
+  font-size: 28px;
+  background-color: #C3073F;
+}
+
+.newscard .news{
+width:100%;
+height:450px;
+}
+.factscard {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width:100%; 
+  margin: auto;
+  text-align: center;
+  font-family: 'Inder';
+  background-color:#FDFFF5 ;
+}
+
+.factscard .title {
+  color:#FDFFF5;
+  font-size: 28px;
+  background-color: #C3073F;
+}
+
+.factscard .facts{
+width:100%;
+height:450px;
+}
