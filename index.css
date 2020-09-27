@@ -1,6 +1,6 @@
 body{
-  background: rgb(0,255,235);
-  background: linear-gradient(90deg, rgba(0,255,235,1) 0%, rgba(244,0,255,1) 100%);
+  background: rgb(58,97,134);
+background: linear-gradient(90deg, rgba(58,97,134,1) 0%, rgba(137,37,62,1) 100%);
 }
 * {
   box-sizing: border-box;
@@ -15,7 +15,7 @@ body{
             } 
 .header {
   overflow: hidden;
-  background-color:linear-gradient(90deg, rgba(0,255,235,1) 0%, rgba(244,0,255,1) 100%);
+  background-color:linear-gradient(90deg, rgba(58,97,134,1) 0%, rgba(137,37,62,1) 100%);
   padding: 20px 10px;
      
 }
@@ -59,8 +59,8 @@ body{
 
 .header a.logo {
   font-size: 40px;
-  font-weight: Extra-bold;
-  color:black;
+  font-weight: 900;
+  color:whitesmoke;
   font-family:'Inder';
 }
 
@@ -82,7 +82,8 @@ body{
 
 .header-right a {
   float: right;
-  color:black;
+  font-weight: 900;
+  color:whitesmoke;
 }
 .contact {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -91,14 +92,14 @@ body{
   font-family: 'Inder';
   text-align: center;
    display: inline-block;
-  background-color:  linear-gradient(90deg, rgba(0,255,235,1) 0%, rgba(244,0,255,1) 100%);
+  background-color:  linear-gradient(90deg, rgba(58,97,134,1) 0%, rgba(137,37,62,1) 100%);
   color: black;
    font-size: 20px;
 }
 .contact .title {
   border: none;
   outline: 0;
-  background-color:  linear-gradient(90deg, rgba(0,255,235,1) 0%, rgba(244,0,255,1) 100%);
+  background-color:  linear-gradient(90deg, rgba(58,97,134,1) 0%, rgba(137,37,62,1) 100%);
   color: black;
    margin: auto;
   display: inline-block;
@@ -141,16 +142,15 @@ body{
   padding: 10px;
   margin: auto;
   width: 100%;
-  background: whitesmoke;
-  border-top: 5px solid black;
-  border-bottom: 2px solid black;
-  color:#ff0092;
+  background: linear-gradient(90deg, rgba(58,97,134,1) 0%, rgba(137,37,62,1) 100%);
+  
+  color:blanchedalmond;
   border-radius: 50px;
   font-family: 'Inder';
   text-align:center;
   font-size: 14px;
   line-height: 1.5;
-  box-shadow: inset 0 0 5px black;
+  
 }
 
 
@@ -169,8 +169,8 @@ p{padding-top:13px;font-size:18px}
   font-size: 80px;
   text-align: center;
   font-family: 'Inder';
-  color:linear-gradient(90deg, rgba(0,255,235,1) 0%, rgba(244,0,255,1) 100%);
-  background-color:linear-gradient(90deg, rgba(0,255,235,1) 0%, rgba(244,0,255,1) 100%);
+  color:linear-gradient(90deg, rgba(58,97,134,1) 0%, rgba(137,37,62,1) 100%);
+  background-color:linear-gradient(90deg, rgba(58,97,134,1) 0%, rgba(137,37,62,1) 100%);
 }
 /* Float two columns side by side */
 .insp .column {
@@ -219,7 +219,7 @@ p{padding-top:13px;font-size:18px}
 
 .footer a.top{
   font-size:20px;
-  color:linear-gradient(90deg, rgba(0,255,235,1) 0%, rgba(244,0,255,1) 100%);
+  color:linear-gradient(90deg, rgba(58,97,134,1) 0%, rgba(137,37,62,1) 100%);
   text-decoration: none;
 }
 
@@ -241,27 +241,27 @@ p{padding-top:13px;font-size:18px}
 
 .fa-twitter {
   background:black;
-  color: linear-gradient(90deg, rgba(0,255,235,1) 0%, rgba(244,0,255,1) 100%);
+  color: linear-gradient(90deg, rgba(58,97,134,1) 0%, rgba(137,37,62,1) 100%);
 }
 
 .fa-instagram {
   background:black;
-  color: linear-gradient(90deg, rgba(0,255,235,1) 0%, rgba(244,0,255,1) 100%);
+  color: linear-gradient(90deg, rgba(58,97,134,1) 0%, rgba(137,37,62,1) 100%);
 }
 
 .fa-linkedin {
   background: black;
-  color: linear-gradient(90deg, rgba(0,255,235,1) 0%, rgba(244,0,255,1) 100%);
+  color: linear-gradient(90deg, rgba(58,97,134,1) 0%, rgba(137,37,62,1) 100%);
 }
 
 .fa-reddit {
   background:black;
-  color:linear-gradient(90deg, rgba(0,255,235,1) 0%, rgba(244,0,255,1) 100%);
+  color:linear-gradient(90deg, rgba(58,97,134,1) 0%, rgba(137,37,62,1) 100%);
 }
 
 .fa-github {
   background:black;
-  color:linear-gradient(90deg, rgba(0,255,235,1) 0%, rgba(244,0,255,1) 100%);
+  color:linear-gradient(90deg, rgba(58,97,134,1) 0%, rgba(137,37,62,1) 100%);
 }
 
 
@@ -270,7 +270,7 @@ p{padding-top:13px;font-size:18px}
 /* Add some padding and a grey background color to containers */
 .container {
   padding: 20px;
-  background-color: linear-gradient(90deg, rgba(0,255,235,1) 0%, rgba(244,0,255,1) 100%);
+  background-color: linear-gradient(90deg, rgba(58,97,134,1) 0%, rgba(137,37,62,1) 100%);
   color:black;
 }
 
@@ -302,13 +302,13 @@ p{padding-top:13px;font-size:18px}
   text-align: center;
   font-family: 'Inder';
   color:black;
-  background-color: #FDFFF5;
+  background-color:linear-gradient(90deg, rgba(58,97,134,1) 0%, rgba(137,37,62,1) 100%);
 }
 
 .card .title {
-  color:linear-gradient(90deg, rgba(0,255,235,1) 0%, rgba(244,0,255,1) 100%);
+  color:whitesmoke;
   font-size: 28px;
-  background-color: black;
+  background-color: linear-gradient(90deg, rgba(58,97,134,1) 0%, rgba(137,37,62,1) 100%);
 }
 
 .timeline {
@@ -318,14 +318,14 @@ p{padding-top:13px;font-size:18px}
   text-align: center;
   font-family: 'Inder';
   color:black;
-  background-color: #FDFFF5;
+  background-color:linear-gradient(90deg, rgba(58,97,134,1) 0%, rgba(137,37,62,1) 100%);
 }
 
 .timeline .title {
-  color: black;
-  color:linear-gradient(90deg, rgba(0,255,235,1) 0%, rgba(244,0,255,1) 100%);
+  color: whitesmoke;
+  
   font-size: 28px;
-  background-color: black;
+  background-color:linear-gradient(90deg, rgba(58,97,134,1) 0%, rgba(137,37,62,1) 100%);
 }
 
 .cardblog {
@@ -334,8 +334,8 @@ p{padding-top:13px;font-size:18px}
   margin: auto;
   text-align: justify;
   font-family: 'Inder';
-  color:black;
-  background-color: #FDFFF5;
+  color:whitesmoke;
+  background-color: linear-gradient(90deg, rgba(58,97,134,1) 0%, rgba(137,37,62,1) 100%);
 }
 
 /*INterest page*/
@@ -344,8 +344,8 @@ p{padding-top:13px;font-size:18px}
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   width: 100%;
   margin: auto;
-  color:black;
-  background-color: #FDFFF5;
+  color:white;
+  background-color: linear-gradient(90deg, rgba(58,97,134,1) 0%, rgba(137,37,62,1) 100%);
   font-family: 'Inder';
   text-align: center;
    display: inline-block;
@@ -356,7 +356,7 @@ p{padding-top:13px;font-size:18px}
   outline: 0;
    margin: auto;
   display: inline-block;
-  color:linear-gradient(90deg, rgba(0,255,235,1) 0%, rgba(244,0,255,1) 100%);
+  color:whitesmoke;
   background-color: black;
   text-align: center;
   width: 100%;
@@ -396,8 +396,8 @@ body {
 /* Style the counter cards */
 .interests .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  color:black;
-  background-color: #FDFFF5;
+  color:whitesmoke;
+  background-color: linear-gradient(90deg, rgba(58,97,134,1) 0%, rgba(137,37,62,1) 100%);
   padding: 16px;
   text-align: center;
 
@@ -412,17 +412,16 @@ body {
   margin: auto;
   text-align:left;
   font-family: 'Inder';
-  color: black;
-  background-color: #FDFFF5;
+  background-color:linear-gradient(90deg, rgba(58,97,134,1) 0%, rgba(137,37,62,1) 100%);
 }
 
 .achcard .title {
   color:white;
   font-size: 28px;
-  background-color: black;
+  background-color:linear-gradient(90deg, rgba(58,97,134,1) 0%, rgba(137,37,62,1) 100%);
 }
 .achcard .collapsible {
-  background-color: #FDFFF5;
+  background-color:linear-gradient(90deg, rgba(58,97,134,1) 0%, rgba(137,37,62,1) 100%);
   color:black;
   cursor: pointer;
   padding: 18px;
@@ -434,14 +433,15 @@ body {
 }
 
 .achcard .active, .collapsible:hover {
-  background-color:linear-gradient(90deg, rgba(0,255,235,1) 0%, rgba(244,0,255,1) 100%) ;
+  background-color:linear-gradient(90deg, rgba(58,97,134,1) 0%, rgba(137,37,62,1) 100%) ;
 }
 
 .achcard .content {
   padding: 0 18px;
   display: none;
   overflow: hidden;
-  background-colorlinear-gradient(90deg, rgba(0,255,235,1) 0%, rgba(244,0,255,1) 100%) ;
+  color: whitesmoke;
+  background-color:linear-gradient(90deg, rgba(58,97,134,1) 0%, rgba(137,37,62,1) 100%) ;
 }
 .achcard .avatar {
   vertical-align: middle;
@@ -457,13 +457,14 @@ body {
   margin: auto;
   text-align: center;
   font-family: 'Inder';
-  background-color:linear-gradient(90deg, rgba(0,255,235,1) 0%, rgba(244,0,255,1) 100%) ;
+  background-color:linear-gradient(90deg, rgba(58,97,134,1) 0%, rgba(137,37,62,1) 100%) ;
 }
 
 .vidcard .title {
-  color:linear-gradient(90deg, rgba(0,255,235,1) 0%, rgba(244,0,255,1) 100%);
+  color:white;
   font-size: 28px;
-  background-color: black;
+
+  background-color:linear-gradient(90deg, rgba(58,97,134,1) 0%, rgba(137,37,62,1) 100%);
 }
 
 .vidcard .vid{
@@ -477,13 +478,13 @@ height:450px;
   margin: auto;
   text-align: center;
   font-family: 'Inder';
-  background-color:linear-gradient(90deg, rgba(0,255,235,1) 0%, rgba(244,0,255,1) 100%) ;
+  background-color:linear-gradient(90deg, rgba(58,97,134,1) 0%, rgba(137,37,62,1) 100%) ;
 }
 
 .newscard .title {
-  color:linear-gradient(90deg, rgba(0,255,235,1) 0%, rgba(244,0,255,1) 100%);
+  color:whitesmoke;
   font-size: 28px;
-  background-color: black;
+  background-color: linear-gradient(90deg, rgba(58,97,134,1) 0%, rgba(137,37,62,1) 100%);
 }
 
 .newscard .news{
@@ -496,13 +497,13 @@ height:450px;
   margin: auto;
   text-align: center;
   font-family: 'Inder';
-  background-color:linear-gradient(90deg, rgba(0,255,235,1) 0%, rgba(244,0,255,1) 100%) ;
+  background-color:linear-gradient(90deg, rgba(58,97,134,1) 0%, rgba(137,37,62,1) 100%) ;
 }
 
 .factscard .title {
-  color:linear-gradient(90deg, rgba(0,255,235,1) 0%, rgba(244,0,255,1) 100%);
+  color:whitesmoke;
   font-size: 28px;
-  background-color: black;
+  background-color: linear-gradient(90deg, rgba(58,97,134,1) 0%, rgba(137,37,62,1) 100%);
 }
 
 .factscard .facts{
