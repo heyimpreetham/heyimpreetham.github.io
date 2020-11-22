@@ -165,6 +165,13 @@ background: linear-gradient(90deg, rgba(71,118,230,1) 5%, rgba(39,0,101,1) 88%);
   display: flex;
   flex: 25%;
 }
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+    height: 250px;
+  }
+  
+}
 .ginfo {
   position: relative;
   font-weight: 900;
