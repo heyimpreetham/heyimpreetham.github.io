@@ -1,6 +1,6 @@
 body{
-  background: rgb(58,97,134);
-background: linear-gradient(90deg, rgba(58,97,134,1) 0%, rgba(137,37,62,1) 100%);
+background: rgb(71,118,230);
+background: linear-gradient(90deg, rgba(71,118,230,1) 5%, rgba(39,0,101,1) 88%);
 }
 * {
   box-sizing: border-box;
@@ -15,7 +15,7 @@ background: linear-gradient(90deg, rgba(58,97,134,1) 0%, rgba(137,37,62,1) 100%)
             } 
 .header {
   overflow: hidden;
-  background-color:linear-gradient(90deg, rgba(58,97,134,1) 0%, rgba(137,37,62,1) 100%);
+  background-color:linear-gradient(90deg, rgba(71,118,230,1) 5%, rgba(39,0,101,1) 88%);
   padding: 20px 10px;
      
 }
@@ -92,15 +92,15 @@ background: linear-gradient(90deg, rgba(58,97,134,1) 0%, rgba(137,37,62,1) 100%)
   font-family: 'Inder';
   text-align: center;
    display: inline-block;
-  background-color:  linear-gradient(90deg, rgba(58,97,134,1) 0%, rgba(137,37,62,1) 100%);
-  color: black;
+  background-color:  linear-gradient(90deg, rgba(71,118,230,1) 5%, rgba(39,0,101,1) 88%);
+  color: white;
    font-size: 20px;
 }
 .contact .title {
   border: none;
   outline: 0;
-  background-color:  linear-gradient(90deg, rgba(58,97,134,1) 0%, rgba(137,37,62,1) 100%);
-  color: black;
+  background-color:  linear-gradient(90deg, rgba(71,118,230,1) 5%, rgba(39,0,101,1) 88%);
+  color: whitesmoke;
    margin: auto;
   display: inline-block;
   text-align: center;
@@ -127,8 +127,66 @@ background: linear-gradient(90deg, rgba(58,97,134,1) 0%, rgba(137,37,62,1) 100%)
  
 }
 
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+  height: 500px;
+  flex-wrap: nowrap;
+}
 
+.flex-item-1 {
+  background-color: linear-gradient(90deg, rgba(71,118,230,1) 5%, rgba(39,0,101,1) 88%);
+  padding: 10px;
+  display: flex;
+  flex: 25%;
+  background-size: cover;
+  
+}
 
+.flex-item-2 {
+  background-color: linear-gradient(90deg, rgba(71,118,230,1) 5%, rgba(39,0,101,1) 88%);
+  padding: 10px;
+  display: flex;
+  flex: 25%;
+  background-size: cover;
+}
+
+.flex-item-3 {
+  background-color: linear-gradient(90deg, rgba(71,118,230,1) 5%, rgba(39,0,101,1) 88%);
+  padding: 10px;
+  display: flex;
+  flex: 25%;
+}
+
+.flex-item-4 {
+  background-color: linear-gradient(90deg, rgba(71,118,230,1) 5%, rgba(39,0,101,1) 88%);
+  padding: 10px;
+  display: flex;
+  flex: 25%;
+}
+.ginfo {
+  position: relative;
+  font-weight: 900;
+  font-size: 2em;
+  color: white;
+  
+}
+
+.ginfo .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
+}
+
+.ginfo .letter {
+  display: inline-block;
+  line-height: 1em;
+  transform-origin: 0 0;
+}
 
 .quote {
   margin: auto;
@@ -142,7 +200,7 @@ background: linear-gradient(90deg, rgba(58,97,134,1) 0%, rgba(137,37,62,1) 100%)
   padding: 10px;
   margin: auto;
   width: 100%;
-  background: linear-gradient(90deg, rgba(58,97,134,1) 0%, rgba(137,37,62,1) 100%);
+  background: linear-gradient(90deg, rgba(71,118,230,1) 5%, rgba(39,0,101,1) 88%);
   
   color:blanchedalmond;
   border-radius: 50px;
@@ -169,8 +227,8 @@ p{padding-top:13px;font-size:18px}
   font-size: 80px;
   text-align: center;
   font-family: 'Inder';
-  color:linear-gradient(90deg, rgba(58,97,134,1) 0%, rgba(137,37,62,1) 100%);
-  background-color:linear-gradient(90deg, rgba(58,97,134,1) 0%, rgba(137,37,62,1) 100%);
+  color:linear-gradient(90deg, rgba(71,118,230,1) 5%, rgba(39,0,101,1) 88%);
+  background-color:linear-gradient(90deg, rgba(71,118,230,1) 5%, rgba(39,0,101,1) 88%);
 }
 /* Float two columns side by side */
 .insp .column {
@@ -212,14 +270,14 @@ p{padding-top:13px;font-size:18px}
 .footer {
   padding: 20px; 
   text-align: center; 
-  background:black;
+  background: linear-gradient(90deg, rgba(71,118,230,1) 5%, rgba(39,0,101,1) 88%);
   bottom:0;
   }
 
 
 .footer a.top{
   font-size:20px;
-  color:linear-gradient(90deg, rgba(58,97,134,1) 0%, rgba(137,37,62,1) 100%);
+  color:linear-gradient(90deg, rgba(71,118,230,1) 5%, rgba(39,0,101,1) 88%);
   text-decoration: none;
 }
 
@@ -240,28 +298,27 @@ p{padding-top:13px;font-size:18px}
 
 
 .fa-twitter {
-  background:black;
-  color: linear-gradient(90deg, rgba(58,97,134,1) 0%, rgba(137,37,62,1) 100%);
-}
 
+  color: white;
+}
 .fa-instagram {
-  background:black;
-  color: linear-gradient(90deg, rgba(58,97,134,1) 0%, rgba(137,37,62,1) 100%);
+ 
+  color: white;
 }
 
 .fa-linkedin {
-  background: black;
-  color: linear-gradient(90deg, rgba(58,97,134,1) 0%, rgba(137,37,62,1) 100%);
+  
+  color: white;
 }
 
 .fa-reddit {
-  background:black;
-  color:linear-gradient(90deg, rgba(58,97,134,1) 0%, rgba(137,37,62,1) 100%);
+  
+  color: white;
 }
 
 .fa-github {
-  background:black;
-  color:linear-gradient(90deg, rgba(58,97,134,1) 0%, rgba(137,37,62,1) 100%);
+  
+  color: white;
 }
 
 
@@ -270,7 +327,7 @@ p{padding-top:13px;font-size:18px}
 /* Add some padding and a grey background color to containers */
 .container {
   padding: 20px;
-  background-color: linear-gradient(90deg, rgba(58,97,134,1) 0%, rgba(137,37,62,1) 100%);
+  background-color: linear-gradient(90deg, rgba(71,118,230,1) 5%, rgba(39,0,101,1) 88%);
   color:black;
 }
 
@@ -302,13 +359,13 @@ p{padding-top:13px;font-size:18px}
   text-align: center;
   font-family: 'Inder';
   color:black;
-  background-color:linear-gradient(90deg, rgba(58,97,134,1) 0%, rgba(137,37,62,1) 100%);
+  background-color:linear-gradient(90deg, rgba(71,118,230,1) 5%, rgba(39,0,101,1) 88%);
 }
 
 .card .title {
   color:whitesmoke;
   font-size: 28px;
-  background-color: linear-gradient(90deg, rgba(58,97,134,1) 0%, rgba(137,37,62,1) 100%);
+  background-color: linear-gradient(90deg, rgba(71,118,230,1) 5%, rgba(39,0,101,1) 88%);
 }
 
 .timeline {
@@ -318,14 +375,14 @@ p{padding-top:13px;font-size:18px}
   text-align: center;
   font-family: 'Inder';
   color:black;
-  background-color:linear-gradient(90deg, rgba(58,97,134,1) 0%, rgba(137,37,62,1) 100%);
+  background-color:linear-gradient(90deg, rgba(71,118,230,1) 5%, rgba(39,0,101,1) 88%);
 }
 
 .timeline .title {
   color: whitesmoke;
   
   font-size: 28px;
-  background-color:linear-gradient(90deg, rgba(58,97,134,1) 0%, rgba(137,37,62,1) 100%);
+  background-color:linear-gradient(90deg, rgba(71,118,230,1) 5%, rgba(39,0,101,1) 88%);
 }
 
 .cardblog {
@@ -335,7 +392,7 @@ p{padding-top:13px;font-size:18px}
   text-align: justify;
   font-family: 'Inder';
   color:whitesmoke;
-  background-color: linear-gradient(90deg, rgba(58,97,134,1) 0%, rgba(137,37,62,1) 100%);
+  background-color: linear-gradient(90deg, rgba(71,118,230,1) 5%, rgba(39,0,101,1) 88%);
 }
 
 /*INterest page*/
@@ -345,7 +402,7 @@ p{padding-top:13px;font-size:18px}
   width: 100%;
   margin: auto;
   color:white;
-  background-color: linear-gradient(90deg, rgba(58,97,134,1) 0%, rgba(137,37,62,1) 100%);
+  background-color: linear-gradient(90deg, rgba(71,118,230,1) 5%, rgba(39,0,101,1) 88%);
   font-family: 'Inder';
   text-align: center;
    display: inline-block;
@@ -397,7 +454,7 @@ body {
 .interests .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   color:whitesmoke;
-  background-color: linear-gradient(90deg, rgba(58,97,134,1) 0%, rgba(137,37,62,1) 100%);
+  background-color: linear-gradient(90deg, rgba(71,118,230,1) 5%, rgba(39,0,101,1) 88%);
   padding: 16px;
   text-align: center;
 
@@ -412,16 +469,16 @@ body {
   margin: auto;
   text-align:left;
   font-family: 'Inder';
-  background-color:linear-gradient(90deg, rgba(58,97,134,1) 0%, rgba(137,37,62,1) 100%);
+  background-color:linear-gradient(90deg, rgba(71,118,230,1) 5%, rgba(39,0,101,1) 88%);
 }
 
 .achcard .title {
   color:white;
   font-size: 28px;
-  background-color:linear-gradient(90deg, rgba(58,97,134,1) 0%, rgba(137,37,62,1) 100%);
+  background-color:linear-gradient(90deg, rgba(71,118,230,1) 5%, rgba(39,0,101,1) 88%);
 }
 .achcard .collapsible {
-  background-color:linear-gradient(90deg, rgba(58,97,134,1) 0%, rgba(137,37,62,1) 100%);
+  background-color:linear-gradient(90deg, rgba(71,118,230,1) 5%, rgba(39,0,101,1) 88%);
   color:black;
   cursor: pointer;
   padding: 18px;
@@ -464,7 +521,7 @@ body {
   color:white;
   font-size: 28px;
 
-  background-color:linear-gradient(90deg, rgba(58,97,134,1) 0%, rgba(137,37,62,1) 100%);
+  background-color:linear-gradient(90deg, rgba(71,118,230,1) 5%, rgba(39,0,101,1) 88%);
 }
 
 .vidcard .vid{
@@ -484,7 +541,7 @@ height:450px;
 .newscard .title {
   color:whitesmoke;
   font-size: 28px;
-  background-color: linear-gradient(90deg, rgba(58,97,134,1) 0%, rgba(137,37,62,1) 100%);
+  background-color: linear-gradient(90deg, rgba(71,118,230,1) 5%, rgba(39,0,101,1) 88%);
 }
 
 .newscard .news{
@@ -503,7 +560,7 @@ height:450px;
 .factscard .title {
   color:whitesmoke;
   font-size: 28px;
-  background-color: linear-gradient(90deg, rgba(58,97,134,1) 0%, rgba(137,37,62,1) 100%);
+  background-color: linear-gradient(90deg, rgba(71,118,230,1) 5%, rgba(39,0,101,1) 88%);
 }
 
 .factscard .facts{
