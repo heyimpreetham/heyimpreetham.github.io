@@ -44,32 +44,17 @@
     </section>
     <section>
       <div class="flex-container">
+        <div class="flex-item-2">
+          <h1 class="ginfo">Welcome to the Journey</h1>   
+        </div>
         <div class="flex-item-1">
            <img class="iflex" src="me.jpg" style="width:100%;border-radius: 50px;">
            <img class="iflex" src="me1.jpg" style="width:100%;border-radius: 50px;">
            <img class="iflex" src="me2.jpg" style="width:100%;border-radius: 50px;">
-        </div>
-        <div class="flex-item-2">
-          <h1 class="ginfo">
-            <span class="text-wrapper">
-              <span class="letters">Preetham</span>
-            </span>
-            <span class="text-wrapper">
-              <span class="letters">CS Engineer</span>
-            </span>
-            <span class="text-wrapper">
-              <span class="letters">PSG TECHian</span>
-            </span>
-          </h1>        
-        </div>
-        <div class="flex-item-3">
-      
-        </div>
-        <div class="flex-item-4">
-          
-        </div>
+        </div>        
       </div>
     </section>
+    
     <script>
       var myIndex = 0;
       carousel();
@@ -86,23 +71,26 @@
         setTimeout(carousel, 3000); // Change image every 2 seconds
       }
 
-        var textWrapper = document.querySelector('.ginfo .letters');
-        textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+      var textWrapper = document.querySelector('.ginfo');
+      textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
 
-        anime.timeline({loop: true})
-          .add({
-            targets: '.ginfo .letter',
-            rotateY: [-90, 0],
-            duration: 1300,
-            delay: (el, i) => 45 * i
-          })
-          .add({
-            targets: '.ginfo',
-            opacity: 0,
-            duration: 1000,
-            easing: "easeOutExpo",
-            delay: 1000
-            });
+      anime.timeline({loop: true})
+        .add({
+          targets: '.ginfo .letter',
+          translateX: [40,0],
+          translateZ: 0,
+          opacity: [0,1],
+          easing: "easeOutExpo",
+          duration: 1200,
+          delay: (el, i) => 500 + 30 * i
+        }).add({
+          targets: '.ginfo .letter',
+          translateX: [0,-30],
+          opacity: [1,0],
+          easing: "easeInExpo",
+          duration: 1100,
+          delay: (el, i) => 100 + 30 * i
+        });
       </script>
       
 <section>
