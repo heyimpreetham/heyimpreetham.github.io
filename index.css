@@ -93,7 +93,7 @@ background: linear-gradient(90deg, rgba(71,118,230,1) 5%, rgba(39,0,101,1) 88%);
   text-align: center;
    display: inline-block;
   background-color:  linear-gradient(90deg, rgba(71,118,230,1) 5%, rgba(39,0,101,1) 88%);
-  color: white;
+  color: whitesmoke;
    font-size: 20px;
 }
 .contact .title {
@@ -166,6 +166,32 @@ background: linear-gradient(90deg, rgba(71,118,230,1) 5%, rgba(39,0,101,1) 88%);
   overflow: hidden;
 }
 
+.flex-item-3 {
+  background-color: linear-gradient(90deg, rgba(71,118,230,1) 5%, rgba(39,0,101,1) 88%);
+  padding: 10px;
+  display: flex;
+  height: 500px;
+  flex: 50%;
+  background-size: cover;
+  overflow: hidden;
+  align-content: center;
+  flex-direction: column;
+
+}
+
+.flex-item-4 {
+  background-color: linear-gradient(90deg, rgba(71,118,230,1) 5%, rgba(39,0,101,1) 88%);
+  padding: 10px;
+  display: flex;
+  flex: 50%;
+  height: 500px;
+  line-height: 1em;
+  align-items: center;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+
 
 
 @media (max-width: 800px) {
@@ -179,6 +205,16 @@ background: linear-gradient(90deg, rgba(71,118,230,1) 5%, rgba(39,0,101,1) 88%);
   }
   .flex-item-2{
     font-size: 5px;
+    overflow: hidden;
+    height: 250px;
+  }
+  .flex-item-3{
+    font-size: 8px;
+    overflow: hidden;
+    height: 250px;
+  }
+  .flex-item-4{
+    font-size: 10px;
     overflow: hidden;
     height: 250px;
   }
@@ -311,26 +347,26 @@ p{padding-top:13px;font-size:18px}
 
 .fa-twitter {
 
-  color: white;
+  color: whitesmoke;
 }
 .fa-instagram {
  
-  color: white;
+  color: whitesmoke;
 }
 
 .fa-linkedin {
   
-  color: white;
+  color: whitesmoke;
 }
 
 .fa-reddit {
   
-  color: white;
+  color: whitesmoke;
 }
 
 .fa-github {
   
-  color: white;
+  color: whitesmoke;
 }
 
 
@@ -387,7 +423,7 @@ p{padding-top:13px;font-size:18px}
   margin: auto;
   text-align: center;
   font-family: 'Inder';
-  color:black;
+  color:whitesmoke;
   background-color:linear-gradient(90deg, rgba(71,118,230,1) 5%, rgba(39,0,101,1) 88%);
 }
 
@@ -414,7 +450,7 @@ p{padding-top:13px;font-size:18px}
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   width: 100%;
   margin: auto;
-  color:white;
+  color:whitesmoke;
   background-color: linear-gradient(90deg, rgba(71,118,230,1) 5%, rgba(39,0,101,1) 88%);
   font-family: 'Inder';
   text-align: center;
@@ -486,7 +522,7 @@ body {
 }
 
 .achcard .title {
-  color:white;
+  color:whitesmoke;
   font-size: 28px;
   background-color:linear-gradient(90deg, rgba(71,118,230,1) 5%, rgba(39,0,101,1) 88%);
 }
@@ -531,7 +567,7 @@ body {
 }
 
 .vidcard .title {
-  color:white;
+  color:whitesmoke;
   font-size: 28px;
 
   background-color:linear-gradient(90deg, rgba(71,118,230,1) 5%, rgba(39,0,101,1) 88%);
@@ -579,4 +615,30 @@ height:450px;
 .factscard .facts{
 width:100%;
 height:450px;
+}
+
+.flip-horizontal-bottom {
+	-webkit-animation: flip-horizontal-bottom 1.5s cubic-bezier(0.600, 0.040, 0.980, 0.335) infinite both;
+	        animation: flip-horizontal-bottom 1.5s cubic-bezier(0.600, 0.040, 0.980, 0.335) infinite both;
+}
+
+@-webkit-keyframes flip-horizontal-bottom {
+  0% {
+    -webkit-transform: rotateX(0);
+            transform: rotateX(0);
+  }
+  100% {
+    -webkit-transform: rotateX(-180deg);
+            transform: rotateX(-180deg);
+  }
+}
+@keyframes flip-horizontal-bottom {
+  0% {
+    -webkit-transform: rotateX(0);
+            transform: rotateX(0);
+  }
+  100% {
+    -webkit-transform: rotateX(-180deg);
+            transform: rotateX(-180deg);
+  }
 }
