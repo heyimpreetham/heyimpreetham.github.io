@@ -82,7 +82,7 @@ body {
     font-size: 40px;
     font-weight: 900;
     color: whitesmoke;
-    font-family: 'Inder';
+    font-family: 'Comfortaa';
 }
 
 .header a:hover {
@@ -109,7 +109,7 @@ body {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     width: 100%;
     margin: auto;
-    font-family: 'Inder';
+    font-family: 'Comfortaa';
     text-align: center;
     display: inline-block;
     background-color: linear-gradient(90deg, rgba(71, 118, 230, 1) 5%, rgba(39, 0, 101, 1) 88%);
@@ -265,9 +265,9 @@ body {
     background: linear-gradient(90deg, rgba(71, 118, 230, 1) 5%, rgba(39, 0, 101, 1) 88%);
     color: blanchedalmond;
     border-radius: 50px;
-    font-family: 'Inder';
+    font-family: 'Comfortaa';
     text-align: center;
-    font-size: 14px;
+    font-size: 5px;
     line-height: 1.5;
 }
 
@@ -279,7 +279,7 @@ p {
 .carousel-inner .item .carousel-caption {
     font-size: 80px;
     text-align: center;
-    font-family: 'Inder';
+    font-family: 'Comfortaa';
     color: #ff005f;
 }
 
@@ -289,7 +289,7 @@ p {
     margin: auto;
     font-size: 80px;
     text-align: center;
-    font-family: 'Inder';
+    font-family: 'Comfortaa';
     color: linear-gradient(90deg, rgba(71, 118, 230, 1) 5%, rgba(39, 0, 101, 1) 88%);
     background-color: linear-gradient(90deg, rgba(71, 118, 230, 1) 5%, rgba(39, 0, 101, 1) 88%);
 }
@@ -330,7 +330,7 @@ p {
     margin: auto;
     padding: 16px;
     text-align: center;
-    font-family: 'Inder';
+    font-family: 'Comfortaa';
     color: black;
     background-color: #FDFFF5;
 }
@@ -415,7 +415,7 @@ p {
     max-width: 100%;
     margin: auto;
     text-align: center;
-    font-family: 'Inder';
+    font-family: 'Comfortaa';
     color: black;
     background-color: linear-gradient(90deg, rgba(71, 118, 230, 1) 5%, rgba(39, 0, 101, 1) 88%);
 }
@@ -431,7 +431,7 @@ p {
     width: 100%;
     margin: auto;
     text-align: center;
-    font-family: 'Inder';
+    font-family: 'Comfortaa';
     color: whitesmoke;
     background-color: linear-gradient(90deg, rgba(71, 118, 230, 1) 5%, rgba(39, 0, 101, 1) 88%);
 }
@@ -447,7 +447,7 @@ p {
     width: 100%;
     margin: auto;
     text-align: justify;
-    font-family: 'Inder';
+    font-family: 'Comfortaa';
     color: whitesmoke;
     background-color: linear-gradient(90deg, rgba(71, 118, 230, 1) 5%, rgba(39, 0, 101, 1) 88%);
 }
@@ -461,7 +461,7 @@ p {
     margin: auto;
     color: whitesmoke;
     background-color: linear-gradient(90deg, rgba(71, 118, 230, 1) 5%, rgba(39, 0, 101, 1) 88%);
-    font-family: 'Inder';
+    font-family: 'Comfortaa';
     text-align: center;
     display: inline-block;
     font-size: 20px;
@@ -539,7 +539,7 @@ body {
     width: 100%;
     margin: auto;
     text-align: left;
-    font-family: 'Inder';
+    font-family: 'Comfortaa';
     background-color: linear-gradient(90deg, rgba(71, 118, 230, 1) 5%, rgba(39, 0, 101, 1) 88%);
 }
 
@@ -589,7 +589,7 @@ body {
     width: 100%;
     margin: auto;
     text-align: center;
-    font-family: 'Inder';
+    font-family: 'Comfortaa';
     background-color: linear-gradient(90deg, rgba(58, 97, 134, 1) 0%, rgba(137, 37, 62, 1) 100%);
 }
 
@@ -609,7 +609,7 @@ body {
     width: 100%;
     margin: auto;
     text-align: center;
-    font-family: 'Inder';
+    font-family: 'Comfortaa';
     background-color: linear-gradient(90deg, rgba(58, 97, 134, 1) 0%, rgba(137, 37, 62, 1) 100%);
 }
 
@@ -629,7 +629,7 @@ body {
     width: 100%;
     margin: auto;
     text-align: center;
-    font-family: 'Inder';
+    font-family: 'Comfortaa';
     background-color: linear-gradient(90deg, rgba(58, 97, 134, 1) 0%, rgba(137, 37, 62, 1) 100%);
 }
 
