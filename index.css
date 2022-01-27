@@ -184,9 +184,9 @@ body {
 
 .flex-item-2 {
     background-color: linear-gradient(90deg, rgba(71, 118, 230, 1) 5%, rgba(39, 0, 101, 1) 88%);
-    padding: 10px;
+    padding: 5px;
     display: flex;
-    flex: 75%;
+    flex: 50%;
     height: 500px;
     line-height: 1em;
     align-items: center;
